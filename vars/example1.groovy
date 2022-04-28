@@ -1,7 +1,7 @@
-def call(String name = "Alice") {
+def call(String name) {
     script {
-        sh """
+        
             echo Hi ${name}
-        """
+        
     }
 }
